@@ -1,5 +1,66 @@
 # Practicum Project
 
 Repository of data scientist projects in the Practicum Indonesia course.\
+
 These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
 These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+
+#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
+Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.\
+Library: Pandas
+
+---------------------------------------------
+#### Project 2 Data Pre-processing
+
+---------------------------------------------
+#### Project 3 Exploratory Data Analysis
+
+---------------------------------------------
+#### Project 4 Statistical Data Analysis
+
+---------------------------------------------
+#### Project 5 Integrated Projects 1
+
+---------------------------------------------
+#### Project 6 Data Collection and Storage
+
+---------------------------------------------
+#### Project 7 Introduction to Machine Learning
+
+---------------------------------------------
+#### Project 8 Supervised Learning
+
+---------------------------------------------
+#### Project 9 Machine Learning in Business
+
+---------------------------------------------
+#### Project 10 Integrated Projects 2
+
+---------------------------------------------
+#### Project 11 Linear Algebra
+
+---------------------------------------------
+#### Project 12 Numerical Methods
+
+---------------------------------------------
+#### Project 13 Time Series
+
+---------------------------------------------
+#### Project 14 Machine Learning For Text
+
+---------------------------------------------
+#### Project 15 Computer Vision
+
+---------------------------------------------
+#### Project 16 Unsupervised Learning
+
+---------------------------------------------
+#### Project 17 Final Project
+
+
+
+
+
+
+
+
