@@ -6,11 +6,11 @@ These are data scientist projects that I have completed while taking courses at 
 These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
 
 #### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.\
-Library: Pandas
+Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
 
 ---------------------------------------------
-#### Project 2 Data Pre-processing
+#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
+Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
 
 ---------------------------------------------
 #### Project 3 Exploratory Data Analysis
