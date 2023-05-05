@@ -19,7 +19,7 @@ Analyzing the impact of a customer's marital status and the number of children o
 #### Project 4 Statistical Data Analysis
 
 ---------------------------------------------
-#### Project 5 Integrated Projects 1
+#### Project 5 Integrated Project 1
 
 ---------------------------------------------
 #### Project 6 Data Collection and Storage
@@ -34,7 +34,7 @@ Analyzing the impact of a customer's marital status and the number of children o
 #### Project 9 Machine Learning in Business
 
 ---------------------------------------------
-#### Project 10 Integrated Projects 2
+#### Project 10 Integrated Project 2
 
 ---------------------------------------------
 #### Project 11 Linear Algebra
