@@ -1,13 +1,16 @@
 # Music in the Big City
 
-In this first project of the course, I was assigned to compare the music preferences of Springfield and Shelbyville users. As the first project, this project contains some instructions about structure, directions, and conclusions from Practicum.
+In the first project of the course, I was tasked with comparing the music preferences of users in Springfield and Shelbyville. This project includes instructions on structure, direction, and conclusions from Practicum.
 
-I got data from Y.Music to test some of the hypotheses below and compare user behavior in the two cities.
+To test some of the hypotheses and compare user behavior in the two cities.
+
+The data for this analysis was obtained from Y.Music to test the hypotheses and compare user behavior in the two cities. The project was structured to follow instructions provided by Practicum.
 
 # Hypothesis
-- User activity varies depending on the day and city.
-- On Monday mornings, Springfield and Shelbyville users listen to different genres. This also applies on Friday nights.
-- Listeners in Springfield and Shelbyville have different preferences. In Springfield, users prefer pop music, while in Shelbyville rap music has more fans.
+- User activity varies based on the day and the city they are located in.
+- On Monday mornings and Friday nights, there are differences in music genre preferences between users in Springfield and Shelbyville.
+- Pop music is more popular among users in Springfield, while rap music has a larger fan base among users in Shelbyville.
+
 
 # Data Description
 - 'userID' — User ID
