@@ -41,8 +41,8 @@ By following these stages, I aim to demonstrate my proficiency in exploratory da
 
 ## Libraries
 - Pandas Version: 1.4.4
-- Seaborn version: 0.12.2
-- Matplotlib version: 3.7.1
+- Seaborn Version: 0.12.2
+- Matplotlib Version: 3.7.1
 
 
 
