@@ -13,7 +13,8 @@ Comparing music preferences and user behavior between the cities of Springfield 
 Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
 
 ---------------------------------------------
-#### Project 3 Exploratory Data Analysis
+#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
+Analyze the factors influencing the selling price of cars in the used vehicle market.
 
 ---------------------------------------------
 #### Project 4 Statistical Data Analysis
