@@ -1,67 +1,75 @@
-# Practicum Project
+# Phone Plan Analysis
 
-Data scientist project repository from Practicum Indonesia.
+## Project Overview
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+In this project, we performed an analysis of prepaid package plans to determine their revenue potential across various target markets. Additionally, we conducted hypothesis testing utilizing statistical analysis methods.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+Megaline, a telecom operator, offers two prepaid packages, Surf and Ultimate. The advertising department aims to optimize the advertising budget by identifying which prepaid plan generates more revenue.
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+In this analysis, we will examine a sample of 500 Megaline clients and explore their behavior, including their identity, origin, package type, and usage statistics such as the number of calls and messages sent in 2018. By analyzing client behavior, we aim to determine which prepaid package brings in higher revenue for Megaline.
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
+## Data Description
 
----------------------------------------------
-#### Project 4 Statistical Data Analysis
+We have obtained five data files for this analysis, each containing different information. Here is a description of each data file:
 
----------------------------------------------
-#### Project 5 Integrated Project 1
+**megaline_users (user data):**
+- user_id: User ID
+- first_name: User's first name
+- last_name: User's last name
+- age: User's age in years
+- reg_date: Subscription start date (dd, mm, yy)
+- churn_date: Date when the user stopped using the service (if missing, it means the service plan was in use when the data was generated)
+- city: City where the user lives
+- plan: Name of the phone plan
 
----------------------------------------------
-#### Project 6 Data Collection and Storage
+**megaline_calls (call data):**
+- id: Unique ID for each web session
+- call_date: Date of the call
+- duration: Duration of the call in minutes
+- user_id: User ID of the caller
 
----------------------------------------------
-#### Project 7 Introduction to Machine Learning
+**megaline_messages (SMS data):**
+- id: Unique SMS ID
+- message_date: Date when the SMS was sent
+- user_id: User ID of the sender
 
----------------------------------------------
-#### Project 8 Supervised Learning
+**megaline_internet (web session data):**
+- id: Unique ID for each web session
+- mb_used: Volume of data consumed during the session in megabytes
+- session_date: Date of the web session
+- user_id: User ID
 
----------------------------------------------
-#### Project 9 Machine Learning in Business
+**megaline_plans (phone package data):**
+- plan_name: Phone plan name
+- usd_monthly_fee: Monthly fee in US dollars
+- minutes_included: Monthly call minute allocation
+- messages_included: Monthly SMS allocation
+- mb_per_month_included: Monthly data volume allocation in megabytes
+- usd_per_minute: Price per minute if the package allocation limit has been exceeded
+- usd_per_message: Price per SMS if the package allocation limit has been exceeded
+- usd_per_gb: Price per extra gigabyte of data if the package allocation limit has been exceeded (1 GB = 1024 megabytes)
 
----------------------------------------------
-#### Project 10 Integrated Project 2
+## Hypothesis
 
----------------------------------------------
-#### Project 11 Linear Algebra
+We were assigned to test two hypotheses in this analysis, namely:
+- The average revenue of Ultimate and Surf phone package users is different.
+- The average income of users in the NY-NJ area is different from the income of users from other regions.
 
----------------------------------------------
-#### Project 12 Numerical Methods
+## Stages
 
----------------------------------------------
-#### Project 13 Time Series
+This project will consist of three phases:
 
----------------------------------------------
-#### Project 14 Machine Learning For Text
+1. Data Pre-processing: In this stage, we will clean and prepare the data for analysis. This includes handling missing values, removing outliers, and transforming the data if necessary.
 
----------------------------------------------
-#### Project 15 Computer Vision
+2. Data Analysis: In the second stage, we will perform exploratory data analysis to gain insights and understand the patterns and trends within the dataset. We will calculate descriptive statistics, visualize the data, and identify any relationships or correlations among variables.
 
----------------------------------------------
-#### Project 16 Unsupervised Learning
+3. Hypothesis Testing: The third stage involves conducting hypothesis tests to evaluate specific hypotheses and draw conclusions based on statistical evidence. We will define our null and alternative hypotheses, select an appropriate statistical test, calculate the test statistic, and interpret the results to make informed decisions.
 
----------------------------------------------
-#### Project 17 Final Project
+By completing these three phases, we will gain a comprehensive understanding of the prepaid package plans and their revenue potential in different target markets.
 
-
-
-
-
-
-
-
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Matplotlib version: 3.7.1
+- Seaborn version: 0.12.2
+- SciPy version: 1.10.1
