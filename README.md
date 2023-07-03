@@ -17,7 +17,8 @@ Analyzing the impact of a customer's marital status and the number of children o
 Analyze the factors influencing the selling price of cars in the used vehicle market.
 
 ---------------------------------------------
-#### Project 4 Statistical Data Analysis
+#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
+Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
 
 ---------------------------------------------
 #### Project 5 Integrated Project 1
