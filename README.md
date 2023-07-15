@@ -21,7 +21,8 @@ Analyze the factors influencing the selling price of cars in the used vehicle ma
 Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
 
 ---------------------------------------------
-#### Project 5 Integrated Project 1
+#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
+Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
 
 ---------------------------------------------
 #### Project 6 Data Collection and Storage
