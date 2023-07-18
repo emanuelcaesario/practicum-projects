@@ -1,71 +1,52 @@
-# Practicum Project
+# Bank Customer Churn Prediction
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Overview
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+Bank Beta has been experiencing a decline in customer numbers over time, highlighting the importance of retaining existing customers rather than acquiring new ones. To address this challenge, the bank is seeking accurate prediction models to anticipate customer behavior and proactively mitigate customer churn. By identifying customers with a higher likelihood of leaving the bank, strategic measures can be taken to retain them.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+Our objective is to predict the likelihood of customer churn in the banking industry. By utilizing historical data on client behavior and contract terminations, we aim to develop a model that can accurately determine whether a customer is likely to leave the bank in the near future.
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+The primary goal is to achieve a high F1 score of at least 0.59 on the test dataset. Additionally, we will evaluate the model's performance using the AUC-ROC metric and compare it with the F1 scores to gain further insights.
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
+## Data Description
 
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
+For machine learning training, we will be using the dataset stored in the file `Churn.csv`. This dataset contains the following features and target variable:
 
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
+**Features:**
+- `RowNumber`: Index of the data string
+- `CustomerId`: Customer ID
+- `Surname`: Last name
+- `CreditScore`: Credit score
+- `Geography`: Country of residence
+- `Gender`: Gender
+- `Age`: Age
+- `Tenure`: Maturity period for customer fixed deposits (in years)
+- `Balance`: Account balance
+- `NumOfProducts`: Number of bank products used by the customer
+- `HasCrCard`: Whether the customer has a credit card
+- `IsActiveMember`: Level of customer activity
+- `EstimatedSalary`: Estimated salary
 
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
+**Target:**
+- `Exited`: Whether the customer has quit
+     
 
----------------------------------------------
-#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
-Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
+## Stages
 
----------------------------------------------
-#### Project 8 Supervised Learning
+The project will encompass several stages:
 
----------------------------------------------
-#### Project 9 Machine Learning in Business
-
----------------------------------------------
-#### Project 10 Integrated Project 2
-
----------------------------------------------
-#### Project 11 Linear Algebra
-
----------------------------------------------
-#### Project 12 Numerical Methods
-
----------------------------------------------
-#### Project 13 Time Series
-
----------------------------------------------
-#### Project 14 Machine Learning For Text
-
----------------------------------------------
-#### Project 15 Computer Vision
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
+1. Data pre-processing: Downloading and preparing the data for analysis.
+2. Class balance check: Assessing the distribution of existing classes.
+3. Model training without considering class imbalance: Training the initial model and analyzing the obtained results.
+4. Improving model performance by addressing class imbalance: Implementing techniques to address the class imbalance issue.
+5. Parameter selection using the training set: Fine-tuning the model's parameters based on the training set.
+6. Training and evaluating different models on the training and validation sets: Experimenting with various models and assessing their performance.
+7. Identifying the best models: Selecting the models with the highest performance.
+8. Conducting final tests: Running tests on the selected models to assess their effectiveness.
 
 
-
-
-
-
-
-
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Matplotlib version: 3.7.1
+- Scikit-learn version: 1.2.2
