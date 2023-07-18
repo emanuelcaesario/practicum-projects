@@ -29,7 +29,8 @@ Identify patterns determining game success, create user profiles for target mark
 Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
 
 ---------------------------------------------
-#### Project 7 Introduction to Machine Learning
+#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
+Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
 
 ---------------------------------------------
 #### Project 8 Supervised Learning
