@@ -37,7 +37,8 @@ Conducting an analysis of customer behavior and developing a machine learning mo
 Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
 
 ---------------------------------------------
-#### Project 9 Machine Learning in Business
+#### Project 9 Machine Learning in Business : [Oil Well Location Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-9-Machine-Learning-in-Business)
+Finding a suitable location for new oil well drilling.
 
 ---------------------------------------------
 #### Project 10 Integrated Project 2
