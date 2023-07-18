@@ -33,7 +33,8 @@ Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypothe
 Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
 
 ---------------------------------------------
-#### Project 8 Supervised Learning
+#### Project 8 Supervised Learning : [Bank Customer Churn Prediction](https://github.com/emanuelcaesario/practicum-project/tree/Project-8-Supervised-Learning)
+Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
 
 ---------------------------------------------
 #### Project 9 Machine Learning in Business
