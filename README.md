@@ -25,7 +25,8 @@ Selecting the plan with the highest potential revenue for different target marke
 Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
 
 ---------------------------------------------
-#### Project 6 Data Collection and Storage
+#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
+Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
 
 ---------------------------------------------
 #### Project 7 Introduction to Machine Learning
