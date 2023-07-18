@@ -1,70 +1,40 @@
-# Practicum Project
+# Telecom Plans ML Model
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Overview
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+This project serves as a follow-up to our previous work in Project 4 Statistical Data Analysis. Here, we continue to assist Megaline, a mobile operator, in addressing their concern regarding customers who continue to use outdated packages.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+The company wants to develop a model capable of analyzing consumer behavior and providing personalized recommendations for the two new Megaline packages: Smart and Ultra.
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+The objectives of this project include:
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
+- Analyzing the behavior patterns of Megaline customers who have switched to the latest package.
+- Developing machine learning models to study the behavior of these users.
+- Utilizing the models to provide suitable package recommendations for customers who have not yet adopted the latest package.
 
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
+## Data Description
 
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
+To build this model, we will utilize the preprocessed data available in the `users_behavior.csv` file.
 
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
+Each observation in the dataset provides monthly behavioral information for a single user, including the following variables:
 
----------------------------------------------
-#### Project 7 Introduction to Machine Learning
+- `сalls`: the number of calls made by the user
+- `minutes`: the total duration of calls in minutes
+- `messages`: the number of text messages sent by the user
+- `mb_used`: the amount of internet usage traffic in megabytes (MB)
+- `is_ultra`: the package subscribed by the user for the current month (Ultra - 1, Smart - 0)
+     
 
----------------------------------------------
-#### Project 8 Supervised Learning
+## Stages
 
----------------------------------------------
-#### Project 9 Machine Learning in Business
+Having previously conducted statistical data analysis on Megaline customer data in Project 4 Statistical Data Analysis, we will now proceed directly to the modeling stage, assuming that the data preprocessing step has been completed.
 
----------------------------------------------
-#### Project 10 Integrated Project 2
+The objective of this classification task is to develop a model that can accurately recommend the appropriate package for Megaline customers who have not yet switched to the latest package.
 
----------------------------------------------
-#### Project 11 Linear Algebra
-
----------------------------------------------
-#### Project 12 Numerical Methods
-
----------------------------------------------
-#### Project 13 Time Series
-
----------------------------------------------
-#### Project 14 Machine Learning For Text
-
----------------------------------------------
-#### Project 15 Computer Vision
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
+Our goal is to create a model with the highest possible accuracy, with a minimum threshold of 0.75 for accuracy in this project.
 
 
-
-
-
-
-
-
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Scikit-learn version: 1.2.2
