@@ -45,7 +45,8 @@ Finding a suitable location for new oil well drilling.
 Predict the amount of gold extracted from gold ore.
 
 ---------------------------------------------
-#### Project 11 Linear Algebra
+#### Project 11 Linear Algebra : [Machine Learning Solutions for Insurance](https://github.com/emanuelcaesario/practicum-project/tree/Project-11-Linear-Algebra)
+Demonstrates practical applications of linear algebra in solving real-world tasks.
 
 ---------------------------------------------
 #### Project 12 Numerical Methods
