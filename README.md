@@ -41,7 +41,8 @@ Predict the likelihood of customer churn in the banking industry using an imbala
 Finding a suitable location for new oil well drilling.
 
 ---------------------------------------------
-#### Project 10 Integrated Project 2
+#### Project 10 Integrated Project 2 : [Gold Extraction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-10-Integrated-Project-2)
+Predict the amount of gold extracted from gold ore.
 
 ---------------------------------------------
 #### Project 11 Linear Algebra
