@@ -1,74 +1,67 @@
-# Practicum Project
+# Machine Learning Solutions for Insurance
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Overview
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+This project showcases the practical applications of linear algebra, combining its mathematical beauty with real-world tasks. The main objective is to demonstrate the accuracy of our algorithm rather than selecting the best model. The project template includes initial code and task descriptions, which will not be removed, along with two appendices providing useful information.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+In this project, an insurance company called "Sure Tomorrow" seeks machine learning solutions for various tasks:
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+- Task 1: Client profiling - Find clients similar to specific criteria for effective marketing.
+- Task 2: Claim prediction - Determine if new clients are likely to make insurance claims and compare model predictions with a dummy model.
+- Task 3: Regression - Predict the amount of insurance claims new clients may receive using linear regression.
+- Task 4: Data Privacy Protection - Develop data transformation algorithms to obfuscate or hide the client's private information while maintaining the accuracy and quality of the machine learning model. The goal is to prevent misuse or unauthorized access to clients' personal data, ensuring data privacy is maintained without compromising the performance of the machine learning model.
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
+## Data Description
 
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
+The dataset is available in the `insurance_us.csv` file. Here are the description of the data:
 
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
+- Features:
+  - Gender: The gender of the insured (e.g., male or female).
+  - Age: The age of the insured in years (numeric value).
+  - Income: The income of the insured (numeric value).
+  - Family Members: The number of family members covered by the insurance.
+  
+- Target variable:
+  - Insurance Benefits: The amount of insurance claims received by the insured during the last five years. This represents the benefits or claims the insured has received from the insurance company.
+     
 
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
+## Stages
 
----------------------------------------------
-#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
-Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
+The project will encompass several stages:
 
----------------------------------------------
-#### Project 8 Supervised Learning : [Bank Customer Churn Prediction](https://github.com/emanuelcaesario/practicum-project/tree/Project-8-Supervised-Learning)
-Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
+1. **Data Loading and Initialization:**
+   - Load the dataset from the `insurance_us.csv` file.
+   - Explore the dataset to understand its structure and contents.
+   - Check for missing values, data types, and basic statistics.
+   
 
----------------------------------------------
-#### Project 9 Machine Learning in Business : [Oil Well Location Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-9-Machine-Learning-in-Business)
-Finding a suitable location for new oil well drilling.
+2. **EDA (Exploratory Data Analysis):**
+   - Perform exploratory analysis to understand the relationships between features and the target variable (insurance_benefits).
+   - Identify patterns or correlations in the data through visualization.
+   
 
----------------------------------------------
-#### Project 10 Integrated Project 2 : [Gold Extraction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-10-Integrated-Project-2)
-Predict the amount of gold extracted from gold ore.
+3. **Task 1 - Similar Clients:**
+   - Create a function to display k-nearest neighbors for the nth object based on a specific distance metric.
+   
 
----------------------------------------------
-#### Project 11 Linear Algebra
+4. **Task 2 - Insurance Claim Prediction:**
+   - Evaluate whether the kNN classification model is a better approach than the dummy model for predicting insurance claim acceptance.
+   
 
----------------------------------------------
-#### Project 12 Numerical Methods
+5. **Task 3 - Regression (with Linear Regression):**
+   - Using insurance_benefits as the target variable, evaluate the Root Mean Squared Error (RMSE) for the Linear Regression model.
+   
 
----------------------------------------------
-#### Project 13 Time Series
+6. **Task 4 - Data Obfuscation:**
+   - Apply data obfuscation by multiplying numerical features (remember these features are seen in matrix 𝑋) with an invertible matrix 𝑃.
+   - Demonstrate the effectiveness of data obfuscation with Linear Regression.
+   
 
----------------------------------------------
-#### Project 14 Machine Learning For Text
+7. **Test Linear Regression with Data Obfuscation:**
+   - Test the Linear Regression model with obfuscated data to assess its performance and accuracy.
 
----------------------------------------------
-#### Project 15 Computer Vision
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
-
-
-
-
-
-
-
-
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Matplotlib version: 3.7.1
+- Scikit-learn version: 1.2.2
