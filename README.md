@@ -1,73 +1,100 @@
-# Practicum Project
+# Gold Extraction Model
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Overview
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+We were tasked with developing a prototype machine learning model for Zyfra, a company specializing in efficient solutions for the heavy industry sector.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+The objective was to design a model capable of predicting the amount of gold extracted from gold ore, using data related to the extraction and refining process.
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+The purpose of this model is to optimize the production process and eliminate non-profitable parameters.
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
-
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
-
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
-
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
-
----------------------------------------------
-#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
-Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
-
----------------------------------------------
-#### Project 8 Supervised Learning : [Bank Customer Churn Prediction](https://github.com/emanuelcaesario/practicum-project/tree/Project-8-Supervised-Learning)
-Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
-
----------------------------------------------
-#### Project 9 Machine Learning in Business : [Oil Well Location Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-9-Machine-Learning-in-Business)
-Finding a suitable location for new oil well drilling.
-
----------------------------------------------
-#### Project 10 Integrated Project 2
-
----------------------------------------------
-#### Project 11 Linear Algebra
-
----------------------------------------------
-#### Project 12 Numerical Methods
-
----------------------------------------------
-#### Project 13 Time Series
-
----------------------------------------------
-#### Project 14 Machine Learning For Text
-
----------------------------------------------
-#### Project 15 Computer Vision
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
+To accomplish this project, we were instructed to:
+- Prepare the available data
+- Perform data analysis
+- Develop and train the models
 
 
+## Data Description
+
+The data we get is stored in three files, namely:
+- `gold_recovery_train.csv`
+- `gold_recovery_test.csv`
+- `gold_recovery_full.csv`
+
+**Technological Process**
+- `Rougher feed` — Raw material used in the flotation process.
+- `Rougher additions` (or reagent additions) — Reagents added during flotation: Xanthate, Sulphate, Depressant.
+- `Xanthate` — Flotation activator.
+- `Sulphate` — Sodium sulfide used specifically for this process.
+- `Depressant` — Sodium silicate used as a depressant.
+- `Rougher process` — Flotation process.
+- `Rougher tails` — Residue or by-product from the flotation process.
+- `Float banks` — Flotation units or cells.
+- `Cleaner process` — Purification process.
+- `Rougher Au` — Coarser gold concentrate obtained from the flotation process.
+- `Final Au` — Final gold concentrate after purification.
+
+**Parameters of Existing Stages**
+- `air amount` — air volume
+- `fluid levels`
+- `feed size` — feed particle size
+- `feed rate`
+
+**Feature Naming**
+
+To name the existing features, follow the format: 
+`[stage].[parameter_type].[parameter_name]`
+For example: `rougher.input.feed_ag`
+
+Possible values for `[stage]`:
+- *rougher* — flotation stage
+- *primary_cleaner* — first purification stage
+- *secondary_cleaner* — second purification stage
+- *final* — final stage
+
+Possible values for `[parameter_type]`:
+- *input* — raw material parameters
+- *output* — product parameters
+- *state* — parameters indicating the current stage characteristics
+- *calculation* — calculated characteristics
+ 
+
+## Project Instructions
+
+**1. Data Preparation**
+
+- Open the files and examine the data.
+    - Filepaths:
+        - `gold_recovery_train.csv`
+        - `gold_recovery_test.csv`
+        - `gold_recovery_full.csv`
+- Verify the correctness of the gold recovery calculation. Calculate the recovery rate for the `rougher.output.recovery` feature using the training set. Calculate the mean absolute error (MAE) between your calculation and the actual feature values. Please provide the results of your calculation.
+- Analyze the features that are not available in the test set. What are these parameters? What types of parameters are they?
+- Perform data preprocessing.
+
+**2. Data Analysis**
+
+- Take note of how the concentration of metals (Au, Ag, Pb) changes at different stages of purification.
+- Compare the particle size distribution of the feed in the training set and the test set. If there is a significant variation in the distribution, it could lead to erroneous evaluation of the model.
+- Examine the total concentrations of all substances at different stages: raw feed, coarser concentrations, and final concentrations. Look for any abnormal values in the distribution of the totals. If you find any anomalies, determine if it is necessary to remove those values from both the training and test sets. Describe your findings and provide a rationale for handling the anomaly.
+
+**3. Model Creation**
+
+- Define a function to calculate the final sMAPE (symmetric mean absolute percentage error) value.
+- Train different models and evaluate their performance using cross-validation. Select the best model and test it using a separate test dataset. Share your findings and results.
+- Utilize the following formula for evaluating the performance metrics:
+
+![image](https://github.com/emanuelcaesario/practicum-project/assets/118190295/a0788aab-77ef-45c1-a91d-bf7bd68c5a30)
+
+where:
+- `N` is the number of samples
+- `yi` is the true target values
+- `ŷi` is the predicted target values
 
 
-
-
-
-
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Matplotlib version: 3.7.1
+- Seaborn version: 0.12.2
+- Scikit-learn version: 1.2.2
