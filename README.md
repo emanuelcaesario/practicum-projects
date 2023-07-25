@@ -1,75 +1,79 @@
-# Practicum Project
+# Car Price Model
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Overview
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+Our task involves assisting Rusty Bargain, a company engaged in buying and selling used cars, with the development of an app to attract new buyers. The app will enable users who wish to sell their cars to swiftly ascertain their market value.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+To achieve this, we have access to historical data, technical specifications of various vehicles, different model versions, and their corresponding prices. Our primary objective is to create a model that accurately predicts the market value of these cars.
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+Key factors of interest to Rusty Bargain include:
+- the prediction quality
+- the speed of the prediction model
+- the time required for model training
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
+## Data Description
 
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
+The datasets are stored in the file `car_data.csv`.
 
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
+**Features**
+- `DateCrawled`: The date when the profile was downloaded from the database.
+- `VehicleType`: Vehicle body type.
+- `RegistrationYear`: Vehicle registration year.
+- `Gearbox`: Gearbox type.
+- `Power`: Power of the vehicle (in horsepower).
+- `Model`: Vehicle model.
+- `Mileage`: Distance traveled by the vehicle (measured in kilometers based on certain regional datasets).
+- `RegistrationMonth`: Month of vehicle registration.
+- `FuelType`: Fuel type used by the vehicle.
+- `Brand`: Vehicle brand.
+- `NotRepaired`: Indicates whether the vehicle has been repaired before.
+- `DateCreated`: Profile creation date.
+- `NumberOfPictures`: Number of vehicle images available.
+- `PostalCode`: Postal code of the profile owner (user).
+- `LastSeen`: The date of the user's last activity.
 
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
+**Target**
+- `Price`: Price of the vehicle (in Euros).
+     
 
----------------------------------------------
-#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
-Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
+## Stages
 
----------------------------------------------
-#### Project 8 Supervised Learning : [Bank Customer Churn Prediction](https://github.com/emanuelcaesario/practicum-project/tree/Project-8-Supervised-Learning)
-Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
+The project will encompass several stages:
 
----------------------------------------------
-#### Project 9 Machine Learning in Business : [Oil Well Location Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-9-Machine-Learning-in-Business)
-Finding a suitable location for new oil well drilling.
+1. Data Collection:
+   - Gather historical data about used cars from various sources.
+   - Collect data on vehicle technical specifications, model versions, and prices.
+   - Store the obtained data in the file `/datasets/car_data.csv`.
 
----------------------------------------------
-#### Project 10 Integrated Project 2 : [Gold Extraction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-10-Integrated-Project-2)
-Predict the amount of gold extracted from gold ore.
+2. Data Analysis:
+   - Explore the characteristics and structure of the data to gain insights into the dataset.
+   - Identify irrelevant features that can be removed.
+   - Address issues related to zero values and outliers in certain columns.
+   - Remove duplicate data and fill missing values with 'unknown'.
 
----------------------------------------------
-#### Project 11 Linear Algebra : [Machine Learning Solutions for Insurance](https://github.com/emanuelcaesario/practicum-project/tree/Project-11-Linear-Algebra)
-Demonstrates practical applications of linear algebra in solving real-world tasks.
+3. Data Preprocessing:
+   - Prepare two datasets: `df` and `df_new` for different modeling needs.
+   - Encode categorical features using one-hot-encoding for the `df` dataset.
+   - Perform feature scaling to standardize the numerical features.
 
----------------------------------------------
-#### Project 12 Numerical Methods
+4. Model Selection and Training:
+   - Train and evaluate several machine learning models, including Linear Regression, Decision Tree Regressor, Random Forest Regressor, XGBoost Regressor, LightGBM Regressor, and CatBoost Regressor.
+   - Use cross-validation techniques for model evaluation.
+   - Tune hyperparameters for the models using RandomizedSearchCV to find the best parameters for each model.
 
----------------------------------------------
-#### Project 13 Time Series
+5. Model Evaluation:
+   - Compare the performance of each model based on RMSE (Root Mean Squared Error) scores and training times.
+   - Identify the best model that strikes a balance between prediction accuracy and training speed.
 
----------------------------------------------
-#### Project 14 Machine Learning For Text
+6. Conclusion:
+   - Summarize the findings and observations from the model evaluations.
+   - Recommend the most suitable model (CatBoost Regressor) for Rusty Bargain based on the criteria of prediction quality, speed, and training time.
 
----------------------------------------------
-#### Project 15 Computer Vision
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
-
-
-
-
-
-
-
-
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Matplotlib version: 3.7.1
+- Scikit-learn version: 1.2.2
+- CatBoost version: 1.1.1
+- LightGBM version: 3.3.5
+- XGBoost version: 1.7.3
