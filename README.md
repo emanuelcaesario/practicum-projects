@@ -49,7 +49,8 @@ Predict the amount of gold extracted from gold ore.
 Demonstrates practical applications of linear algebra in solving real-world tasks.
 
 ---------------------------------------------
-#### Project 12 Numerical Methods
+#### Project 12 Numerical Methods : [Car Price Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-12-Numerical-Methods)
+Predict used car market value for Rusty Bargain app.
 
 ---------------------------------------------
 #### Project 13 Time Series
