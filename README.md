@@ -1,76 +1,43 @@
-# Practicum Project
+# Taxi Orders Prediction Model
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Description
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+We work for a taxi company called Sweet Lift, which has collected historical data about taxi orders at the airport. Our task is to predict the number of taxi orders for the next hour to attract more drivers during rush hour. The goal is to build a predictive model with an RMSE metric on the test set not exceeding 48.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
-
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
-
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
-
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
-
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
-
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
-
----------------------------------------------
-#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
-Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
-
----------------------------------------------
-#### Project 8 Supervised Learning : [Bank Customer Churn Prediction](https://github.com/emanuelcaesario/practicum-project/tree/Project-8-Supervised-Learning)
-Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
-
----------------------------------------------
-#### Project 9 Machine Learning in Business : [Oil Well Location Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-9-Machine-Learning-in-Business)
-Finding a suitable location for new oil well drilling.
-
----------------------------------------------
-#### Project 10 Integrated Project 2 : [Gold Extraction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-10-Integrated-Project-2)
-Predict the amount of gold extracted from gold ore.
-
----------------------------------------------
-#### Project 11 Linear Algebra : [Machine Learning Solutions for Insurance](https://github.com/emanuelcaesario/practicum-project/tree/Project-11-Linear-Algebra)
-Demonstrates practical applications of linear algebra in solving real-world tasks.
-
----------------------------------------------
-#### Project 12 Numerical Methods : [Car Price Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-12-Numerical-Methods)
-Predict used car market value for Rusty Bargain app.
-
----------------------------------------------
-#### Project 13 Time Series
-
----------------------------------------------
-#### Project 14 Machine Learning For Text
-
----------------------------------------------
-#### Project 15 Computer Vision
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
+This project aims to:
+- Apply time series data processing skills to real-world projects.
+- Analyze data characteristics to identify patterns, trends, and seasonality.
+- Create several models for making predictions.
+- Choose and recommend the best model for implementation.
 
 
+## Data Description
+
+The data is stored in the `taxi.csv` file, with the number of orders represented in the `num_orders` column.
+- `datetime`— contains the date and time sequence of data retrieval.
+- `num_orders`— represents the number of taxi orders per unit of time.
 
 
+## 1.4 Stages
+
+This project will be completed in the following stages:
+- Importing files and formatting the data for time series analysis.
+- Studying the general information of the data and ensuring data quality.
+- Conducting data analysis to understand its characteristics.
+- Creating a precise predictive model.
+- Testing the model on a separate test dataset.
+- Drawing conclusions and selecting the best model for implementation.
 
 
-
-
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Matplotlib version: 3.7.1
+- Scikit-learn version: 1.2.2
+- CatBoost version: 1.1.1
+- LightGBM version: 3.3.5
+- XGBoost version: 1.7.3
+- Statsmodels version: 0.13.5
+- Scipy version: 1.10.1
+- Pmdarima version: 1.8.5
+- Prophet version: 1.0
