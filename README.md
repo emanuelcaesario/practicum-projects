@@ -53,7 +53,8 @@ Demonstrates practical applications of linear algebra in solving real-world task
 Predict used car market value for Rusty Bargain app.
 
 ---------------------------------------------
-#### Project 13 Time Series
+#### Project 13 Time Series : [Taxi Orders Prediction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-13-Time-Series)
+Predict the number of taxi orders for the next hour to attract more drivers during rush hour.
 
 ---------------------------------------------
 #### Project 14 Machine Learning For Text
