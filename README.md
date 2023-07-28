@@ -57,7 +57,8 @@ Predict used car market value for Rusty Bargain app.
 Predict the number of taxi orders for the next hour to attract more drivers during rush hour.
 
 ---------------------------------------------
-#### Project 14 Machine Learning For Text
+#### Project 14 Machine Learning For Text : [Movie Sentiment Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-14-Machine-Learning-for-Text)
+Train models capable of automatically detecting negative reviews
 
 ---------------------------------------------
 #### Project 15 Computer Vision
