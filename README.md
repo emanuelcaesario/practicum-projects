@@ -1,78 +1,43 @@
-# Practicum Project
+# Age Verification Model
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Description
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+Good Seed, a supermarket chain, has initiated a project to explore the application of Data Science in assisting them to comply with age-restriction laws. They seek to ensure that they are not selling age-restricted products to customers who are underage.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+The company has equipped their stores with cameras in the cashier area, which can detect age-restricted products during transactions. In order to verify a person's age, they aim to employ computer vision techniques capable of determining an individual's age from a photograph.
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+We completed this project on Practicum's or TripleTen's platform, utilizing their GPU facilities to expedite the machine learning process. Below, we present the results obtained.
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
+## Objective
 
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
+The objective of this project is to build and evaluate a model that can accurately verify a person's age based on the photographs captured by the cameras in the cashier area. By doing so, Good Seed aims to ensure compliance with age-restriction regulations, prevent sales to underage customers, and uphold legal requirements.
 
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
+Our task is to build and train a convolutional neural network on a GPU platform using a dataset containing human photographs. The objective is to achieve an MAE score of no greater than 8 for the test set.
 
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
+## Data Description
 
----------------------------------------------
-#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
-Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
+The required datasets are stored in the `/datasets/faces/` folder on Practicum Platform and include the following:
 
----------------------------------------------
-#### Project 8 Supervised Learning : [Bank Customer Churn Prediction](https://github.com/emanuelcaesario/practicum-project/tree/Project-8-Supervised-Learning)
-Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
+- The `final_file` folder containing approximately 7.6k photos.
+- The file `labels.csv`, which contains the corresponding labels for the images, with two columns: `file_name` and `real_age`.
 
----------------------------------------------
-#### Project 9 Machine Learning in Business : [Oil Well Location Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-9-Machine-Learning-in-Business)
-Finding a suitable location for new oil well drilling.
+Due to the large number of image files, it is advisable not to read them all simultaneously, as it may consume excessive computing resources. Instead, we recommend using the ImageDataGenerator to create a generator.
 
----------------------------------------------
-#### Project 10 Integrated Project 2 : [Gold Extraction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-10-Integrated-Project-2)
-Predict the amount of gold extracted from gold ore.
+The file containing labels, `labels.csv`, can be easily loaded as a plain CSV file, providing convenient access to the associated image labels for further processing and analysis.
 
----------------------------------------------
-#### Project 11 Linear Algebra : [Machine Learning Solutions for Insurance](https://github.com/emanuelcaesario/practicum-project/tree/Project-11-Linear-Algebra)
-Demonstrates practical applications of linear algebra in solving real-world tasks.
+## Stages
 
----------------------------------------------
-#### Project 12 Numerical Methods : [Car Price Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-12-Numerical-Methods)
-Predict used car market value for Rusty Bargain app.
+This project will be completed through the following stages:
 
----------------------------------------------
-#### Project 13 Time Series : [Taxi Orders Prediction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-13-Time-Series)
-Predict the number of taxi orders for the next hour to attract more drivers during rush hour.
+- Import computer vision libraries and load the available data.
+- Conduct exploratory data analysis, including descriptive statistics, visualization of sample data, augmentation analysis, class distribution analysis, and image quality analysis.
+- Proceed to the modeling phase, where functions will be created for execution on Practicum's GPU platform.
+- Develop coding scripts based on the functions to be executed on the GPU platform.
+- Record the output from the GPU platform in markdown cells.
 
----------------------------------------------
-#### Project 14 Machine Learning For Text : [Movie Sentiment Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-14-Machine-Learning-for-Text)
-Train models capable of automatically detecting negative reviews
-
----------------------------------------------
-#### Project 15 Computer Vision
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
-
-
-
-
-
-
-
+## Libraries
+- Pandas version: 1.4.4
+- Matplotlib version: 3.7.1
+- Seaborn version: 0.12.2
+- TensorFlow version: 2.12.0
 
