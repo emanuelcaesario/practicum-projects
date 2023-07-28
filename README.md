@@ -61,7 +61,8 @@ Predict the number of taxi orders for the next hour to attract more drivers duri
 Train models capable of automatically detecting negative reviews
 
 ---------------------------------------------
-#### Project 15 Computer Vision
+#### Project 15 Computer Vision : [Age Verification Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-15-Computer-Vision)
+Build and train a convolutional neural network on a GPU platform using a dataset containing human photographs.
 
 ---------------------------------------------
 #### Project 16 Unsupervised Learning
