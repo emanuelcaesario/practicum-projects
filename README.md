@@ -33,6 +33,7 @@ This project will be completed in the following stages:
 - Pandas version: 1.4.4
 - NumPy version: 1.23.5
 - Matplotlib version: 3.7.1
+- Seaborn version: 0.12.2
 - Scikit-learn version: 1.2.2
 - CatBoost version: 1.1.1
 - LightGBM version: 3.3.5
