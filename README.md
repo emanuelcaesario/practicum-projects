@@ -1,77 +1,45 @@
-# Practicum Project
+# Movie Sentiment Analysis
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Description
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+Film Junky Union, a new community for classic film fans, is currently developing a system to filter and categorize movie reviews. The objective is to train a model capable of automatically detecting negative reviews. Our task is to utilize the IMBD film review dataset with polarity labeling and create a model that can accurately classify positive and negative reviews. The set goal for this model is to achieve an F1 score of at least 0.85.
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+## Data Description
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+The data is stored in the file `imdb_reviews.tsv`.
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
+This dataset was obtained from Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). Learning Word Vectors for Sentiment Analysis. The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011).
 
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
+Here are the descriptions for the selected columns:
+- `review` — review text
+- `pos` — target, '0' for negative and '1' for positive
+- `ds_part` — 'train'/'test' for the train/test part of the dataset
 
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
+These three columns are the main focus of our attention in this task. However, it is worth noting that there are also other columns present in the dataset.
 
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
+## Stages
 
----------------------------------------------
-#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
-Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
+This project will be completed through the following stages:
 
----------------------------------------------
-#### Project 8 Supervised Learning : [Bank Customer Churn Prediction](https://github.com/emanuelcaesario/practicum-project/tree/Project-8-Supervised-Learning)
-Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
+1. Loading and studying the data.
+2. Performing initial data pre-processing.
+3. Conducting exploratory data analysis (EDA) and addressing class imbalances.
+4. Performing data pre-processing to prepare the data for modeling.
+5. Training at least three models using the existing training dataset.
+6. Evaluating the models on the existing test dataset.
+7. Writing additional reviews and classifying them using all models.
+8. Analyzing and comparing the model test results from the two points above, and providing an explanation for the observed differences.
 
----------------------------------------------
-#### Project 9 Machine Learning in Business : [Oil Well Location Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-9-Machine-Learning-in-Business)
-Finding a suitable location for new oil well drilling.
-
----------------------------------------------
-#### Project 10 Integrated Project 2 : [Gold Extraction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-10-Integrated-Project-2)
-Predict the amount of gold extracted from gold ore.
-
----------------------------------------------
-#### Project 11 Linear Algebra : [Machine Learning Solutions for Insurance](https://github.com/emanuelcaesario/practicum-project/tree/Project-11-Linear-Algebra)
-Demonstrates practical applications of linear algebra in solving real-world tasks.
-
----------------------------------------------
-#### Project 12 Numerical Methods : [Car Price Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-12-Numerical-Methods)
-Predict used car market value for Rusty Bargain app.
-
----------------------------------------------
-#### Project 13 Time Series : [Taxi Orders Prediction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-13-Time-Series)
-Predict the number of taxi orders for the next hour to attract more drivers during rush hour.
-
----------------------------------------------
-#### Project 14 Machine Learning For Text
-
----------------------------------------------
-#### Project 15 Computer Vision
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
-
-
-
-
-
-
-
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Matplotlib version: 3.7.1
+- Seaborn version: 0.12.2
+- NLTK version: 3.7
+- Regex version: 2.2.1
+- spaCy version: 3.3.1
+- Scikit-learn version: 1.2.2
+- CatBoost version: 1.1.1
+- LightGBM version: 3.3.5
+- XGBoost version: 1.7.3
 
