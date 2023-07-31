@@ -65,15 +65,9 @@ Train models capable of automatically detecting negative reviews
 Build and train a convolutional neural network on a GPU platform using a dataset containing human photographs.
 
 ---------------------------------------------
-#### Project 16 Unsupervised Learning
+#### Project 16 Unsupervised Learning : No Project
+Learn how to look for patterns in unlabeled data. No special projects available in this sprint.
 
 ---------------------------------------------
-#### Project 17 Final Project
-
-
-
-
-
-
-
-
+#### Project 17 Final Project : [Telco Churn Rate Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-17-Final-Project)
+Apply everything we have learned throughout the bootcamp in a real-world simulation.
