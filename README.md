@@ -71,6 +71,29 @@ Each file includes a `customerID` column with a unique code assigned to each cli
 
 The contract information is up to date as of February 1, 2020.
 
+The combined datasets have a total of 20 features. Here is a brief description of the meaning of each feature:
+
+1. `customerID`: The unique ID assigned to each customer.
+2. `BeginDate`: The start date of using the service.
+3. `EndDate`: The end date of using the service.
+4. `Type`: The type of service (monthly/annual/biannual).
+5. `PaperlessBilling`: Indicates whether paperless billing is used (yes/no).
+6. `PaymentMethod`: The payment method used by the customer.
+7. `MonthlyCharges`: The monthly charges for the service.
+8. `TotalCharges`: The total charges for using the service.
+9. `InternetService`: The type of internet service used.
+10. `OnlineSecurity`: Indicates whether online security is included (yes/no).
+11. `OnlineBackup`: Indicates whether online backup is included (yes/no).
+12. `DeviceProtection`: Indicates whether device protection is included (yes/no).
+13. `TechSupport`: Indicates whether technical support is included (yes/no).
+14. `StreamingTV`: Indicates whether TV streaming service is included (yes/no).
+15. `StreamingMovies`: Indicates whether movie streaming service is included (yes/no).
+16. `gender`: The gender of the customer (male/female).
+17. `SeniorCitizen`: Indicates whether the customer is a senior citizen (yes/no).
+18. `Partner`: Indicates whether the customer has a partner (yes/no).
+19. `Dependents`: Indicates whether the customer has dependents (yes/no).
+20. `MultipleLines`: Indicates whether multiple lines are used (yes/no).
+
 
 ## Project Goals
 
