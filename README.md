@@ -1,79 +1,103 @@
-# Practicum Project
+# Final Project: Predicting Telco Churn Rate
 
-Data scientist project repository from Practicum Indonesia (TripleTen).
+## Project Structure
 
-These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
-These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
+This final project is part of a data science course at Practicum, where we apply everything we have learned throughout the bootcamp in a real-world simulation. Unlike previous projects, this final project simulates real work situations in companies. We engage in role play simulations, with the tutoring team playing the roles of our colleagues:
 
-#### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
-Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
+- Tutor 1 acts as the team leader, assigning tasks and ensuring their successful completion.
+- Tutor 2 serves as the senior co-worker, providing answers to common machine learning questions and offering help when needed.
+- Code reviewers assess our code.
 
----------------------------------------------
-#### Project 2 Data Pre-processing : [Borrower's Default Risk](https://github.com/emanuelcaesario/practicum-project/tree/Project-2-Data-Pre-processing)
-Analyzing the impact of a customer's marital status and the number of children on the likelihood of loan default.
+**Task Details:**
 
----------------------------------------------
-#### Project 3 Exploratory Data Analysis : [Vehicle Price Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-3-Exploratory-Data-Analysis)
-Analyze the factors influencing the selling price of cars in the used vehicle market.
+1. **Create a Work Plan**
+   - Study the provided tasks and seek clarification from the team leader if needed.
+   - Develop a work plan and conduct exploratory data analysis (EDA).
+   - Create a list of questions requiring clarification and outline a rough plan at the end of the Jupyter Notebook, defining 3-5 basic steps and explaining each step in one or two sentences.
+   - The team leader will review the questions and work plan, providing feedback if any doubts are found.
+   - The EDA code will be reviewed by the team leader to ensure its correctness.
 
----------------------------------------------
-#### Project 4 Statistical Data Analysis : [Phone Plan Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-4-Statistical-Data-Analysis)
-Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing.
+2. **Develop Solution Model Code**
+   - Develop code to address the problems identified in the approved projects.
+   - Ensure the compiled code follows proper steps and is well-executed.
+   - Verify that the solution code aligns with the task requirements.
+   - Ensure the machine learning model created meets the targeted quality score.
+   - Send the code to the project reviewer for assessment.
 
----------------------------------------------
-#### Project 5 Integrated Project 1 : [Video Game Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-5-Integrated-Project-1)
-Identify patterns determining game success, create user profiles for target markets, and conduct hypothesis testing.
+3. **Create a Task Report**
+   - Prepare a report documenting the steps taken during the project, along with the results and recommendations.
+   - Address the following questions in the report:
+     - What steps have you taken, and which ones have you skipped? Explain the reasons behind your decisions.
+     - What challenges did you encounter, and how did you overcome them?
+     - Outline the key steps taken to complete the task.
+     - Describe your final model and its quality score.
+   - Submit the report to the team leader for review to ensure proper completion of the task.
+   - The team leader will consider factors such as the completeness and clarity of our answers in the evaluation.
+   - The final score is highly dependent on the quality of our models.
+   - To be successful, we need to achieve five story points (SP). Story points (SP) are used to measure the difficulty level of a task, and we can earn 4 - 6 SP for the main project and 1 SP for additional tasks.
+  
 
----------------------------------------------
-#### Project 6 Data Collection and Storage : [Taxi Company Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-6-Data-Collection-and-Storage)
-Analyzing top taxi companies, popular drop-off neighborhoods, and tested hypotheses to gain insights for ride-sharing strategies.
+## Project Description
 
----------------------------------------------
-#### Project 7 Introduction to Machine Learning : [Telecom Plans ML Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-7-Introduction-to-Machine-Learning)
-Conducting an analysis of customer behavior and developing a machine learning model for recommending phone plans.
+A telecommunications operator named Interconnect wants to predict the churn rate of their clients. If it is known that a client is planning to quit, they will be offered promotional codes and special package options. Interconnect's marketing team has collected some personal data from clients, including information about data plans selected and their contracts.
 
----------------------------------------------
-#### Project 8 Supervised Learning : [Bank Customer Churn Prediction](https://github.com/emanuelcaesario/practicum-project/tree/Project-8-Supervised-Learning)
-Predict the likelihood of customer churn in the banking industry using an imbalanced dataset.
+**Interconnect Services**
 
----------------------------------------------
-#### Project 9 Machine Learning in Business : [Oil Well Location Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-9-Machine-Learning-in-Business)
-Finding a suitable location for new oil well drilling.
+Interconnect provides two main types of services:
 
----------------------------------------------
-#### Project 10 Integrated Project 2 : [Gold Extraction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-10-Integrated-Project-2)
-Predict the amount of gold extracted from gold ore.
+1. Landline network: Phones can be connected to multiple channels simultaneously.
+2. Internet: Internet networks can be managed via telephone lines (DSL, digital subscriber line) or via fiber optic cables.
 
----------------------------------------------
-#### Project 11 Linear Algebra : [Machine Learning Solutions for Insurance](https://github.com/emanuelcaesario/practicum-project/tree/Project-11-Linear-Algebra)
-Demonstrates practical applications of linear algebra in solving real-world tasks.
+Some of the other services that Interconnect provides include:
 
----------------------------------------------
-#### Project 12 Numerical Methods : [Car Price Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-12-Numerical-Methods)
-Predict used car market value for Rusty Bargain app.
+- Internet security: antivirus software (DeviceProtection) and malicious website blocker (OnlineSecurity)
+- Dedicated technical support line (TechSupport)
+- Cloud storage for files and backup data (OnlineBackup)
+- Streaming TV (StreamingTV) and movie directories (StreamingMovies)
 
----------------------------------------------
-#### Project 13 Time Series : [Taxi Orders Prediction Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-13-Time-Series)
-Predict the number of taxi orders for the next hour to attract more drivers during rush hour.
-
----------------------------------------------
-#### Project 14 Machine Learning For Text : [Movie Sentiment Analysis](https://github.com/emanuelcaesario/practicum-project/tree/Project-14-Machine-Learning-for-Text)
-Train models capable of automatically detecting negative reviews
-
----------------------------------------------
-#### Project 15 Computer Vision : [Age Verification Model](https://github.com/emanuelcaesario/practicum-project/tree/Project-15-Computer-Vision)
-Build and train a convolutional neural network on a GPU platform using a dataset containing human photographs.
-
----------------------------------------------
-#### Project 16 Unsupervised Learning
-
----------------------------------------------
-#### Project 17 Final Project
+Clients can choose to pay monthly or sign a contract for a 1 or 2-year subscription. They can use various payment methods and receive electronic bills after transactions.
 
 
+## Data Description
+
+The available data consists of four files obtained from different sources:
+
+- `contract.csv` — containing contract information
+- `personal.csv` — containing client personal data
+- `internet.csv` — containing information about Internet services
+- `phone.csv` — containing information about phone services
+
+Each file includes a `customerID` column with a unique code assigned to each client.
+
+The contract information is up to date as of February 1, 2020.
 
 
+## Project Goals
+
+This project has three main objectives:
+
+- Analyze the provided data to identify factors that can influence the churn rate of customers.
+- Develop machine learning models that can efficiently predict the likelihood of customers leaving Interconnect services.
+- Generate relevant promotional recommendations to mitigate customer churn and retain their loyalty to the service.
 
 
+## Stages of Project Completion
 
+This project will be carried out in four phases:
 
+1. Data pre-processing: Enhance data quality to facilitate more effective analysis.
+2. Exploratory data analysis: Investigate the factors influencing customer churn rate.
+3. Machine learning modeling: Develop a machine learning model capable of accurately predicting churn rate.
+4. Final report and recommendations: Summarize the project implementation and propose appropriate promotion strategies based on the key factors contributing to customer churn in Interconnect services.
+
+## Libraries
+- Pandas version: 1.4.4
+- NumPy version: 1.23.5
+- Matplotlib version: 3.7.1
+- Seaborn version: 0.12.2
+- RegEx version: 2.2.1
+- Scikit-learn version: 1.2.2
+- SciPy version: 1.10.1
+- LightGBM version: 3.3.5
+- XGBoost version: 1.7.3
+- CatBoost version: 1.1.1
