@@ -1,5 +1,9 @@
 # Taxi Orders Prediction Model
 
+[Project Presentation](https://www.canva.com/design/DAFqc2GGQa0/BwA85X7EODa43D4xjvfd0g/view?utm_content=DAFqc2GGQa0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
+[Project Notebook](https://github.com/emanuelcaesario/practicum-project/blob/Project-13-Time-Series/Project%2013%20Time%20Series.ipynb)
+
 ## Project Description
 
 We work for a taxi company called Sweet Lift, which has collected historical data about taxi orders at the airport. Our task is to predict the number of taxi orders for the next hour to attract more drivers during rush hour. The goal is to build a predictive model with an RMSE metric on the test set not exceeding 48.
@@ -18,7 +22,7 @@ The data is stored in the `taxi.csv` file, with the number of orders represented
 - `num_orders`— represents the number of taxi orders per unit of time.
 
 
-## 1.4 Stages
+## Stages
 
 This project will be completed in the following stages:
 - Importing files and formatting the data for time series analysis.
