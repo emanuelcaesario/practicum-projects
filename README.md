@@ -1,4 +1,4 @@
-# Practicum Project
+# Practicum Projects
 
 Data scientist project repository from Practicum Indonesia (TripleTen).
 
