@@ -1,5 +1,7 @@
 # Gold Extraction Model
 
+[Project Presentation](https://www.canva.com/design/DAFqo2anKa8/TInO1VSwLwCaO8qEF7YSCg/view?utm_content=DAFqo2anKa8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#30)
+
 ## Project Overview
 
 We were tasked with developing a prototype machine learning model for Zyfra, a company specializing in efficient solutions for the heavy industry sector.
