@@ -2,6 +2,8 @@
 
 [Project Presentation](https://www.canva.com/design/DAFsh8z45UY/NiGs7SU-cBaw8L0KytIiXw/view?utm_content=DAFsh8z45UY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#45)
 
+[Project File](https://github.com/emanuelcaesario/practicum-projects/blob/Project-17-Final-Project/Final%20Project.ipynb)
+
 ## Project Structure
 
 This final project is part of a data science course at Practicum, where we apply everything we have learned throughout the bootcamp in a real-world simulation. Unlike previous projects, this final project simulates real work situations in companies. We engage in role play simulations, with the tutoring team playing the roles of our colleagues:
