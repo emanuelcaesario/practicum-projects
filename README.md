@@ -1,5 +1,9 @@
 # Movie Sentiment Analysis
 
+[Project Presentation](https://www.canva.com/design/DAFs_hDrYwo/GbHNTDFUMbnkzu2ltB3ZOQ/view?utm_content=DAFs_hDrYwo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1)
+
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-14-Machine-Learning-for-Text/Project%2014%20Machine%20Learning%20for%20Text.ipynb)
+
 ## Project Description
 
 Film Junky Union, a new community for classic film fans, is currently developing a system to filter and categorize movie reviews. The objective is to train a model capable of automatically detecting negative reviews. Our task is to utilize the IMBD film review dataset with polarity labeling and create a model that can accurately classify positive and negative reviews. The set goal for this model is to achieve an F1 score of at least 0.85.
