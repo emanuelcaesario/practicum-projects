@@ -1,5 +1,7 @@
 # Borrower's Default Risk
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-2-Data-Pre-processing/Proyek%202%20Data%20Pre-processing%20-%20English.ipynb)
+
 ## Project Overview
 
 This project aims to showcase my data pre-processing skills. The data pre-processing tasks involve cleaning and organizing the data to ensure its accuracy and suitability for analysis.
