@@ -1,5 +1,7 @@
 # Age Verification Model
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-15-Computer-Vision/Project%2015%20Computer%20Vision.ipynb)
+
 ## Project Description
 
 Good Seed, a supermarket chain, has initiated a project to explore the application of Data Science in assisting them to comply with age-restriction laws. They seek to ensure that they are not selling age-restricted products to customers who are underage.
