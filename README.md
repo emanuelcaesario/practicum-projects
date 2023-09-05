@@ -1,5 +1,7 @@
 # Video Game Analysis
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-5-Integrated-Project-1/Project%205%20Integrated%20Project%201.ipynb)
+
 ## Project Overview
 
 This project is an first integrated project of Practicum courses that encompass various skills taught throughout the first part of the curriculum, including basic Python, data preprocessing, exploratory data analysis, and statistical data analysis.
