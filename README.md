@@ -1,5 +1,7 @@
 # Car Price Model
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-12-Numerical-Methods/Project%2012%20Numerical%20Methods.ipynb)
+
 ## Project Overview
 
 Our task involves assisting Rusty Bargain, a company engaged in buying and selling used cars, with the development of an app to attract new buyers. The app will enable users who wish to sell their cars to swiftly ascertain their market value.
