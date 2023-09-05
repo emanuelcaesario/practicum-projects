@@ -1,5 +1,7 @@
 # Taxi Company Analysis
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-6-Data-Collection-and-Storage/Project%206%20Data%20Collection%20and%20Storage.ipynb)
+
 ## Project Overview
 
 This analysis represents the third part of our project, which focused on data collection and storage in the Practicum course. Unfortunately, we are unable to present the details of the first two parts in this context.
