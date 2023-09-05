@@ -1,5 +1,7 @@
 # Music in the Big City
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-1-Basic-Python/Proyek%201%20Basic%20Phyton%20-%20English.ipynb)
+
 In the first project of the course, I was tasked with comparing the music preferences of users in Springfield and Shelbyville. This project includes instructions on structure, direction, and conclusions from Practicum.
 
 The data for this analysis was obtained from Y.Music to test the hypotheses and compare user behavior in the two cities. The project was structured to follow instructions provided by Practicum.
