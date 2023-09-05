@@ -1,5 +1,7 @@
 # Machine Learning Solutions for Insurance
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-11-Linear-Algebra/Project%2011%20Linear%20Algebra.ipynb)
+
 ## Project Overview
 
 This project showcases the practical applications of linear algebra, combining its mathematical beauty with real-world tasks. The main objective is to demonstrate the accuracy of our algorithm rather than selecting the best model. The project template includes initial code and task descriptions, which will not be removed, along with two appendices providing useful information.
