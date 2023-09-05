@@ -1,5 +1,7 @@
 # Vehicle Price Analysis
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-3-Exploratory-Data-Analysis/Project%203%20Exploratory%20Data%20Analysis%20-%20English.ipynb)
+
 ## Project Overview
 
 This project aims to showcase my skills in exploratory data analysis following my participation in Sprint 3 of the data scientist course at Practicum Indonesia.
