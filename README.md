@@ -1,5 +1,7 @@
 # Bank Customer Churn Prediction
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-8-Supervised-Learning/Project%208%20Supervised%20Learning.ipynb)
+
 ## Project Overview
 
 Bank Beta has been experiencing a decline in customer numbers over time, highlighting the importance of retaining existing customers rather than acquiring new ones. To address this challenge, the bank is seeking accurate prediction models to anticipate customer behavior and proactively mitigate customer churn. By identifying customers with a higher likelihood of leaving the bank, strategic measures can be taken to retain them.
