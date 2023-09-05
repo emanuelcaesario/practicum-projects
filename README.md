@@ -1,5 +1,7 @@
 # Oil Well Location Analysis
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-9-Machine-Learning-in-Business/Project%209%20Machine%20Learning%20in%20Business.ipynb)
+
 ## Project Overview
 
 OilyGiant, an oil mining company, aims to expand its exploration to new locations. Our task is to find a suitable location for drilling a new oil well. To accomplish this, we will develop a machine learning model that can help identify the right location for further exploration.
