@@ -1,5 +1,7 @@
 # Telecom Plans ML Model
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-7-Introduction-to-Machine-Learning/Project%207%20Introduction%20to%20Machine%20Learning.ipynb)
+
 ## Project Overview
 
 This project serves as a follow-up to our previous work in Project 4 Statistical Data Analysis. Here, we continue to assist Megaline, a mobile operator, in addressing their concern regarding customers who continue to use outdated packages.
