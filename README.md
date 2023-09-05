@@ -1,5 +1,7 @@
 # Phone Plan Analysis
 
+[Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-4-Statistical-Data-Analysis/Project%204%20Statistical%20Data%20Analysis.ipynb)
+
 ## Project Overview
 
 In this project, we performed an analysis of prepaid package plans to determine their revenue potential across various target markets. Additionally, we conducted hypothesis testing utilizing statistical analysis methods.
