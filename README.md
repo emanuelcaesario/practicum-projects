@@ -1,6 +1,6 @@
 # Final Project: Predicting Telco Churn Rate
 
-[Project Presentation](https://www.canva.com/design/DAFsh8z45UY/NiGs7SU-cBaw8L0KytIiXw/view?utm_content=DAFsh8z45UY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#45)
+[Project Presentation](https://www.canva.com/design/DAFsh8z45UY/NiGs7SU-cBaw8L0KytIiXw/view?utm_content=DAFsh8z45UY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1)
 
 [Project File](https://github.com/emanuelcaesario/practicum-projects/blob/Project-17-Final-Project/Final%20Project.ipynb)
 
