@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This analysis represents the third part of our project, which focused on data collection and storage in the Practicum course. Unfortunately, we are unable to present the details of the first two parts in this context.
+This analysis represents the third part of our project, which focused on data collection and storage in the Practicum course. See here for the first two parts: [Web Scraping & SQL](https://www.canva.com/design/DAFufJCh1FI/ubLhTwE0EuXFlsNQKaNXDg/view?utm_content=DAFufJCh1FI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1).
 
 During the initial phase, we obtained weather data for Chicago from the website https://code.s3.yandex.net/data-analyst-eng/chicago_weather_2017.html. We then proceeded to perform exploratory data analysis using SQL on the Practicum database to extract the necessary data for our analysis.
 
