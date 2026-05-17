@@ -1,6 +1,6 @@
 # Gold Extraction Model
 
-[Project Presentation](https://www.canva.com/design/DAFqo2anKa8/TInO1VSwLwCaO8qEF7YSCg/view?utm_content=DAFqo2anKa8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#30)
+[Project Presentation](https://drive.google.com/file/d/1l84DlieUqPGPxfMPMTYb1o8rdV72XME9/view?usp=sharing)
 
 [Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-10-Integrated-Project-2/Project%2010%20Integrated%20Project%202%20.ipynb)
 
