@@ -5,7 +5,7 @@ Data scientist projects repository from Practicum Indonesia (TripleTen).
 These are data scientist projects that I have completed while taking courses at Practicum Indonesia by Yandex.
 These projects include Basic Python, Data Pre-processing, Statistical Data Analysis, Exploratory Data Analysis, SQL, Machine Learning, Linear Algebra, Computer Vision, and some integrated projects.
 
-[Portfolio Presentation Link](https://www.canva.com/design/DAFtigWgWZw/JxOJQNRqbjRRpzx-PbzgGw/view?#1)
+[Portfolio Presentation Link](https://drive.google.com/file/d/1ZJ6spHSppId5WrF0E7BtHOUn2LNB5pHi/view?usp=sharing)
 
 #### Project 1 Basic Python : [Music Preferences in Two Cities](https://github.com/emanuelcaesario/practicum-project/tree/Project-1-Basic-Python)
 Comparing music preferences and user behavior between the cities of Springfield and Shelbyville.
