@@ -1,6 +1,6 @@
 # Movie Sentiment Analysis
 
-[Project Presentation](https://www.canva.com/design/DAFs_hDrYwo/GbHNTDFUMbnkzu2ltB3ZOQ/view?utm_content=DAFs_hDrYwo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1)
+[Project Presentation](https://drive.google.com/file/d/1_H7XFfmh7r6n-f34mFiYh2CD4Qn7_8mL/view?usp=sharing)
 
 [Project Notebook](https://github.com/emanuelcaesario/practicum-projects/blob/Project-14-Machine-Learning-for-Text/Project%2014%20Machine%20Learning%20for%20Text.ipynb)
 
