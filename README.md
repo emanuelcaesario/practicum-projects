@@ -1,6 +1,6 @@
 # Taxi Orders Prediction Model
 
-[Project Presentation](https://www.canva.com/design/DAFqc2GGQa0/BwA85X7EODa43D4xjvfd0g/view?utm_content=DAFqc2GGQa0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+[Project Presentation](https://drive.google.com/file/d/1DfSujEXp2ucDysLRSlSWx8UUma-671RA/view?usp=sharing)
 
 [Project Notebook](https://github.com/emanuelcaesario/practicum-project/blob/Project-13-Time-Series/Project%2013%20Time%20Series.ipynb)
 
